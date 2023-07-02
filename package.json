@@ -21,7 +21,7 @@
         "test:e2e": "jest --config ./test/jest-e2e.json"
     },
     "dependencies": {
-        "@llmembed/embedjs": "^0.0.7",
+        "@llmembed/embedjs": "^0.0.10",
         "@nestjs/common": "^9.0.0",
         "@nestjs/core": "^9.0.0",
         "@nestjs/platform-express": "^9.0.0",
