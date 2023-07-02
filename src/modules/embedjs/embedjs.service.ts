@@ -1,9 +1,7 @@
 import path from 'path';
 import { Injectable, OnModuleDestroy, OnModuleInit } from '@nestjs/common';
-import { LLMApplication, LLMApplicationBuilder } from '@llmembed/embedjs';
-import { YoutubeLoader } from '@llmembed/embedjs/loader/youtube';
+import { LLMApplication, LLMApplicationBuilder, WebLoader, YoutubeLoader } from '@llmembed/embedjs';
 import { LanceDb } from '@llmembed/embedjs/databases/lance';
-import { WebLoader } from '@llmembed/embedjs/loader/web';
 
 @Injectable()
 export class EmbedService implements OnModuleDestroy, OnModuleInit {
