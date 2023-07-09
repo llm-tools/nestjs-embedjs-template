@@ -1,6 +1,6 @@
-# NestJS EmbedJs example
+# NestJS EmbedJs template
 
-This project is built as an example to show how to use [EmbedJs](https://github.com/llmembed/embedjs) in a NestJs application.
+This project is built as an example / template to show how to use [EmbedJs](https://github.com/llmembed/embedjs) in a NestJs application.
 
 ## Getting started
 
